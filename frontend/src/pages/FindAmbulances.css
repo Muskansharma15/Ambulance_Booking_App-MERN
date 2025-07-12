@@ -1,0 +1,89 @@
+.ambulance-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .ambulance-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  
+  .ambulance-card {
+    background-color: #f9f9f9;
+    border-left: 6px solid #28a745;
+    padding: 15px 20px;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .ambulance-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .ambulance-card p {
+    margin: 0.3rem 0;
+  }
+  
+  .book-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+  }
+  
+  .book-btn:hover {
+    background-color: #0056b3;
+  }
+.ambulance-title{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+    
+  }
+
+  .ambulance-card{
+    background-color: #f9f9f9;
+    border-left: 6px solid #28a745;
+    padding: 15px 20px;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+  }
+
+  .ambulance-card:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  .ambulance-card p{
+    margin: 0.3rem 0;
+  }
+
+  .book-btn{
+    background-color: #007bff;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+  }
+
+  .book-btn:hover{
+    background-color: #0056b3;
+}  

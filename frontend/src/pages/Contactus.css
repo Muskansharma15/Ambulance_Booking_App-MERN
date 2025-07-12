@@ -1,0 +1,148 @@
+.contact-us-container {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('./assets/ambulancebg2.jpg'); /* Replace with your image path */
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #333;
+    padding: 15px 0;
+  }
+  
+  .menu ul li {
+    margin: 0 15px;
+  }
+  
+  .menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .menu ul li a:hover {
+    color: #ff6347;
+  }
+  /* Home.css */
+
+/* Navbar logo container */
+.menu .logo {
+  display: inline-block;
+  margin-right: 15px; 
+  padding: 5px; 
+  transition : transform 0.3s ease;
+}
+
+/* Style the logo image */
+.menu .logo img {
+  width: 180px; 
+  height: auto; 
+  object-fit: contain; 
+}
+.menu .logo:hover {
+  transform: scale(1.05); /* Slightly enlarge the logo on hover */
+}
+/* Navbar items */
+.menu ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 15px; /* Space between menu items */
+}
+
+/* Style for the rest of the menu links */
+.menu a {
+  text-decoration: none;
+  color: white; 
+  font-weight: bold;
+}
+.menu a:hover {
+  color: #ff6347; }
+  /* Styling for logout button */
+.contact-form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.contact-form-container h1 {
+    margin-bottom: 15px;
+    color: #007BFF; /* Add a color to the heading */
+}
+
+.contact-form-container p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.contact-form-container .form-field {
+    margin-bottom: 15px;
+}
+
+.contact-form-container .form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form-container textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.contact-form-container button {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form-container button:hover {
+    background-color: #0056b3;
+}
+
+.contact-form-container button:active {
+    background-color: #003366;
+}
+
+.contact-form-container .form-field input:focus,
+.contact-form-container .form-field textarea:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

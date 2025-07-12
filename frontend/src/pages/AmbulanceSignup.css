@@ -1,0 +1,69 @@
+/* Center the signup form */
+.ambulance-signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+    background-image: url("./assets/ambulancebg2.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  
+  /* Style the form */
+  .ambulance-signup-form {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 420px;
+    text-align: center;
+  }
+  
+  /* Input fields */
+  .ambulance-signup-form input,
+  .ambulance-signup-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Signup button */
+  .ambulance-signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .ambulance-signup-form button:hover {
+    background-color: #218838;
+  }
+  
+  /* Extra fields for ambulance role */
+  .extra-fields {
+    margin-top: 10px;
+  }
+  
+  .extra-fields input {
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 400px) {
+    .ambulance-signup-form {
+      width: 90%;
+    }
+  }
+  

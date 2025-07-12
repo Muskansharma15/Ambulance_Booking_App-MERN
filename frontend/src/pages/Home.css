@@ -1,0 +1,182 @@
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #333;
+    padding: 15px 0;
+  }
+  
+  .menu ul li {
+    margin: 0 15px;
+  }
+  
+  .menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .menu ul li a:hover {
+    color: rgb(194, 160, 221);
+  }
+  /* Home.css */
+
+/* Navbar logo container */
+.menu .logo {
+  display: inline-block;
+  margin-right: 15px; 
+  padding: 5px; 
+  transition : transform 0.3s ease;
+}
+
+/* Style the logo image */
+.menu .logo img {
+  width: 180px; 
+  height: auto; 
+  object-fit: contain; 
+}
+.menu .logo:hover {
+  transform: scale(1.05); /* Slightly enlarge the logo on hover */
+}
+/* Navbar items */
+.menu ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 15px; /* Space between menu items */
+}
+
+/* Style for the rest of the menu links */
+.menu a {
+  text-decoration: none;
+  color: white; 
+  font-weight: bold;
+}
+.menu a:hover {
+  color: rgb(202, 160, 221); }
+  /* Styling for logout button */
+  .logout-btn {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .logout-btn:hover {
+    background: rgb(194, 160, 221);
+    color: white;
+  }
+  
+  /* Main content */
+  .content {
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .search-input {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .search-button:hover {
+    background-color: #218838;
+  }
+  /* Location Form */
+.location-form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .location-form h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .location-btn, .book-btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .location-btn:hover, .book-btn:hover {
+    background: #0056b3;
+  }
+  
+  .location-coordinates {
+    margin-top: 10px;
+  }
+  
+  .location-coordinates p {
+    font-size: 18px;
+    color: #555;
+  }
+  .selected-location {
+    color: #fff;
+    font-size: 14px;
+    margin: 8px 0;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 6px 10px;
+    border-radius: 8px;
+  }
+  /* Fix text overlap */
+.selected-location {
+  background: rgba(255, 255, 255, 0.116); /* Light semi-transparent background */
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 5px; /* Space between input and selected location */
+  font-size: 14px;
+}
+
+/* Fix input alignment */
+.booking-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Ensure label spacing */
+.input-label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}

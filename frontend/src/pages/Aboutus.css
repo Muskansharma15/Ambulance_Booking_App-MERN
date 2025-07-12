@@ -1,0 +1,51 @@
+.page-background {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('./assets/ambulancebg2.jpg'); 
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.about-us-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .about-us-container h1 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+  
+  .about-us-container h2 {
+    color: #0056b3;
+    margin-top: 25px;
+    font-size: 22px;
+  }
+  
+  .about-us-container p {
+    margin: 10px 0;
+  }
+  
+  .about-us-container ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .about-us-container ul li {
+    margin-bottom: 6px;
+    list-style-type: disc;
+  }
+  
